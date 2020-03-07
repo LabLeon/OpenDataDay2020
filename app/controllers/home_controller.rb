@@ -16,6 +16,21 @@ class HomeController < ApplicationController
       ],
     },
     {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQR2D_5Yai0I6KmCo5vrOpSrU2_Wd1JOIgwczs50MozHTCLGOPk",
+      name: "Cafe Draco",
+      address: "Mirador de Leon, Gto",
+      tags: [ 
+        {
+          label: "barato",
+          color: "success",
+        },
+        {
+          label: "vista hermosa",
+          color: "success",
+        }
+      ],
+    },
+    {
       url: "https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
       name: "Café 500 Noches",
       address: "Av. Panorama 1109, Valle del Campestre",
