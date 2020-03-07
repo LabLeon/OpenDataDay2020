@@ -16,6 +16,17 @@ class HomeController < ApplicationController
       ],
     },
     {
+      url: "https://images.unsplash.com/photo-1528447374240-3af10805243d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80",
+      name: "Cafetería Valcket",
+      address: "Avenida de las Alamedas #1414",
+      tags: [ 
+        {
+          label: "música agradable",
+          color: "success",
+        },
+      ],
+    },
+    {
       url: "https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
       name: "Café 500 Noches",
       address: "Av. Panorama 1109, Valle del Campestre",
