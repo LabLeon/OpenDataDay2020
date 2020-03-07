@@ -17,8 +17,8 @@ class HomeController < ApplicationController
     },
     {
       url: "https://images.unsplash.com/photo-1515442261605-65987783cb6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      name: "Café de la Gran Ciudad",
-      address: "Torre Latinoamericana, Eje Central No. 2 Piso 9 Terraza, Centro Histórico de la Ciudad de México",
+      name: "StarLight Café - Plaza Grant’s",
+      address: "Plaza Grant´s Boulevard Mariano Escobedo #2717 A Col, La Martinica",
       tags: [ 
         {
           label: "Buen Lugar",
