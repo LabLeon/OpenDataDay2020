@@ -1,6 +1,12 @@
 class HomeController < ApplicationController
   PLACES = [
     {
+      url: "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
+      name: "BROGA",
+      address: "Av. Panorama 604 A, Panorama, 37160 León, Gto.",
+      tags: [ 
+        {
+          label: "Buen wifi",
       url: "https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-1/p720x720/45423980_1740608892734084_7119202240681738240_o.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_ohc=zz2wQqyirgcAX84Bv5L&_nc_ht=scontent-qro1-1.xx&_nc_tp=6&oh=58cff85ddb9f486b724ee73a0794ed76&oe=5E9369D1",
       name: "Tanuki Coffee",
       address: "Rafael Iriarte 519 Villa Insurgentes",
