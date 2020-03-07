@@ -124,6 +124,17 @@ class HomeController < ApplicationController
         }
       ],
     }
+    {
+      url: "https://lh3.googleusercontent.com/p/AF1QipMtOuibpAiw8BbxFTQZBrcVEVwoY7E0BCtxRp0v=s0",
+      name: "Broga",
+      address: "Av. Panorama 604 A, Panorama, 37160 León, Gto.",
+      tags: [ 
+        {
+          label: "Barato",
+          color: "success",
+        },
+      ],
+    },
   ]
 
   def index
