@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   PLACES = [
     {
-      url: "https://unsplash.com/photos/pMW4jzELQCw",
+      url: "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
       name: "BROGA",
       address: "Av. Panorama 604 A, Panorama, 37160 León, Gto.",
       tags: [ 
