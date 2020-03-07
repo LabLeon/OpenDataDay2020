@@ -1,6 +1,17 @@
 class HomeController < ApplicationController
   PLACES = [
     {
+      url: "https://unsplash.com/photos/pMW4jzELQCw",
+      name: "BROGA",
+      address: "Av. Panorama 604 A, Panorama, 37160 León, Gto.",
+      tags: [ 
+        {
+          label: "Buen wifi",
+          color: "success",
+        },
+      ],
+    },
+    {
       url: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
       name: "Cafe del Valle",
       address: "Av. Panorama 1109, Valle del Campestre",
