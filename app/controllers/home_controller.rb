@@ -70,6 +70,21 @@ class HomeController < ApplicationController
           color: "success",
         }
       ],
+    },
+   {
+      url: "https://images.unsplash.com/photo-1515592302748-6c5ea17e2f0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
+      name: "Starbucks",
+      address: "Juan Alonso de Torres Boulevard 2002",
+      tags: [ 
+        {
+          label: "barato",
+          color: "success",
+        },
+        {
+          label: "wifi estable",
+          color: "success",
+        }
+      ],
     }
   ]
 
