@@ -1,9 +1,17 @@
 class HomeController < ApplicationController
   PLACES = [
+     {
+      url: "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      name: "BARISTA",
+      address: "Av. Puebla #2, 38827 Moroleón",
+      tags: [ 
+        {
+          label: "barato",
+          color: "success",
+        },
+      ],
+    },
     {
-      url: "https://cdn.foodandwineespanol.com/2019/05/cafe.jpg",
-      name: "la Olla",
-      address: "DIRECCION",
       url: "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
       name: "BROGA",
       address: "Av. Panorama 604 A, Panorama, 37160 León, Gto.",
@@ -15,7 +23,11 @@ class HomeController < ApplicationController
       address: "Rafael Iriarte 519 Villa Insurgentes",
       tags: [ 
         {
-          label: "wifi free",
+          label: "barato",
+          color: "success",
+        },
+        {
+          label: "ambiente agradable",
           color: "success",
         },
       ],
@@ -33,6 +45,29 @@ class HomeController < ApplicationController
           label: "wifi inestable",
           color: "warning",
         }
+      ],
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQR2D_5Yai0I6KmCo5vrOpSrU2_Wd1JOIgwczs50MozHTCLGOPk",
+      name: "Cafe Draco",
+      address: "Mirador de Leon, Gto",
+      tags: [ 
+        {
+          label: "barato",
+          color: "success",
+        },
+        {
+          label: "vista hermosa",
+          color: "success",
+        }
+      url: "https://images.unsplash.com/photo-1528447374240-3af10805243d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80",
+      name: "Cafetería Valcket",
+      address: "Avenida de las Alamedas #1414",
+      tags: [ 
+        {
+          label: "música agradable",
+          color: "success",
+        },
       ],
     },
     {
