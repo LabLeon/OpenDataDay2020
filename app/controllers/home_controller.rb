@@ -1,16 +1,12 @@
 class HomeController < ApplicationController
   PLACES = [
     {
-      url: "https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-1/p720x720/45423980_1740608892734084_7119202240681738240_o.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_ohc=zz2wQqyirgcAX84Bv5L&_nc_ht=scontent-qro1-1.xx&_nc_tp=6&oh=58cff85ddb9f486b724ee73a0794ed76&oe=5E9369D1",
-      name: "Tanuki Coffee",
-      address: "Rafael Iriarte 519 Villa Insurgentes",
+      url: "https://cdn.foodandwineespanol.com/2019/05/cafe.jpg",
+      name: "la Olla",
+      address: "DIRECCION",
       tags: [ 
         {
-          label: "barato",
-          color: "success",
-        },
-        {
-          label: "ambiente agradable",
+          label: "wifi free",
           color: "success",
         },
       ],
@@ -28,29 +24,6 @@ class HomeController < ApplicationController
           label: "wifi inestable",
           color: "warning",
         }
-      ],
-    },
-    {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQR2D_5Yai0I6KmCo5vrOpSrU2_Wd1JOIgwczs50MozHTCLGOPk",
-      name: "Cafe Draco",
-      address: "Mirador de Leon, Gto",
-      tags: [ 
-        {
-          label: "barato",
-          color: "success",
-        },
-        {
-          label: "vista hermosa",
-          color: "success",
-        }
-      url: "https://images.unsplash.com/photo-1528447374240-3af10805243d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80",
-      name: "Cafetería Valcket",
-      address: "Avenida de las Alamedas #1414",
-      tags: [ 
-        {
-          label: "música agradable",
-          color: "success",
-        },
       ],
     },
     {
