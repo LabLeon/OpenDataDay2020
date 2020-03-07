@@ -16,6 +16,17 @@ class HomeController < ApplicationController
       ],
     },
     {
+      url: "https://images.unsplash.com/photo-1515442261605-65987783cb6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      name: "Café de la Gran Ciudad",
+      address: "Torre Latinoamericana, Eje Central No. 2 Piso 9 Terraza, Centro Histórico de la Ciudad de México",
+      tags: [ 
+        {
+          label: "Buen Lugar",
+          color: "success",
+        },
+      ],
+    },
+    {
       url: "https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
       name: "Café 500 Noches",
       address: "Av. Panorama 1109, Valle del Campestre",
