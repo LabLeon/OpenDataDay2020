@@ -31,6 +31,18 @@ class HomeController < ApplicationController
       ],
     },
     {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQR2D_5Yai0I6KmCo5vrOpSrU2_Wd1JOIgwczs50MozHTCLGOPk",
+      name: "Cafe Draco",
+      address: "Mirador de Leon, Gto",
+      tags: [ 
+        {
+          label: "barato",
+          color: "success",
+        },
+        {
+          label: "vista hermosa",
+          color: "success",
+        }
       url: "https://images.unsplash.com/photo-1528447374240-3af10805243d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80",
       name: "Cafetería Valcket",
       address: "Avenida de las Alamedas #1414",
