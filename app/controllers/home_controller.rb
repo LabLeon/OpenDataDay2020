@@ -15,6 +15,21 @@ class HomeController < ApplicationController
         }
       ],
     },
+      {
+      url: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      name: "frappé & smoothie house",
+      address: "Av. Panorama 915, Valle del Campestre",
+      tags: [ 
+        {
+          label: "barato",
+          color: "success",
+        },
+        {
+          label: "wifi inestable",
+          color: "warning",
+        }
+      ],
+    },
     {
       url: "https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
       name: "Café 500 Noches",
